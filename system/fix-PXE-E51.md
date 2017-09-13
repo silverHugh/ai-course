@@ -10,7 +10,7 @@ Screenshots:
 <a href="https://ibb.co/eOUNoa"><img src="https://thumb.ibb.co/eOUNoa/IMG_20170913_151319.jpg" alt="IMG 20170913 151319" border="0" /></a>
 
 2.
-<a href="https://ibb.co/dH8tuF"><img src="https://preview.ibb.co/gjjBgv/IMG_20170913_151416.jpg" alt="IMG 20170913 151416" border="0" /></a>
+<a href="https://ibb.co/dH8tuF"><img src="https://thumb.ibb.co/dH8tuF/IMG_20170913_151416.jpg" alt="IMG 20170913 151416" border="0" /></a>
 
 3.
 <a href="https://ibb.co/ng9cMv"><img src="https://thumb.ibb.co/ng9cMv/IMG_20170913_151419.jpg" alt="IMG 20170913 151419" border="0" /></a>
