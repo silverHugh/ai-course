@@ -29,10 +29,10 @@ Change Embedded Gb NIC1 setting from `Enable with PXE` to `Enable`. Doesn't work
 
 Find there is some problem with Port A:
 
-Normal:
+Normal:<br>
 <a href="https://ibb.co/eQqCDk"><img src="https://thumb.ibb.co/eQqCDk/IMG_20170920_163438.jpg" alt="IMG 20170920 163438" border="0" /></a>
 
-Down server:
+Down server:<br>
 <a href="https://ibb.co/g4b8m5"><img src="https://thumb.ibb.co/g4b8m5/IMG_20170920_162951.jpg" alt="IMG 20170920 162951" border="0" /></a>
 
-[  ] Try to replug hardware.
+- [ ] Try to replug hardware.
