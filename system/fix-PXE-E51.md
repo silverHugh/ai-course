@@ -35,4 +35,16 @@ Normal:<br>
 Down server:<br>
 <a href="https://ibb.co/g4b8m5"><img src="https://thumb.ibb.co/g4b8m5/IMG_20170920_162951.jpg" alt="IMG 20170920 162951" border="0" /></a>
 
-- [ ] Try to replug hardware.
+- [x] Try to replug hardware.
+
+### 2017-09-29
+
+Problem: One hadrware broken.
+Replace the broken one with a new 500G hardware.
+
+Problem: No system
+Install XenServer 6.1 and configure static network.
+In local command line, configure DNS server.
+Manage this server with XenCenter.
+
+- [ ] Install a new virtual machine. 
