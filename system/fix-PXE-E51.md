@@ -39,12 +39,12 @@ Down server:<br>
 
 ### 2017-09-29
 
-Problem: One hadrware broken.
+Problem: One hadrware broken.<br>
 Replace the broken one with a new 500G hardware.
 
 Problem: No system
-Install XenServer 6.1 and configure static network.
-In local command line, configure DNS server.
+Install XenServer 6.1 and configure static network.<br>
+In local command line, configure DNS server.<br>
 Manage this server with XenCenter.
 
 - [ ] Install a new virtual machine. 
