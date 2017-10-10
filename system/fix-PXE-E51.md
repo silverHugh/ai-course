@@ -48,3 +48,16 @@ In local command line, configure DNS server.<br>
 Manage this server with XenCenter.
 
 - [ ] Install a new virtual machine. 
+
+### 2017-10-10
+
+Problem: can't remove vm-disk after removing vm
+
+Attemption: 
+- xe vdi-destory
+- ...
+- xe vm-disk-remove
+- xe vm-destory
+- xe vm-shutdown uuid=... `You attempted an operation which involves a host which could not be contacted.`
+
+Solution: In XenCenter, remove it from Pool and then add it back.
