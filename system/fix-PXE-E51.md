@@ -47,7 +47,7 @@ Install XenServer 6.1 and configure static network.<br>
 In local command line, configure DNS server.<br>
 Manage this server with XenCenter.
 
-- [ ] Install a new virtual machine. 
+- [x] Install a new virtual machine. 
 
 ### 2017-10-10
 
@@ -61,3 +61,25 @@ Attemption:
 - xe vm-shutdown uuid=... `You attempted an operation which involves a host which could not be contacted.`
 
 Solution: In XenCenter, remove it from Pool and then add it back.
+
+### 2017-10-23
+
+Finished:
+- [x] NTP time sync, ntpd in Cloudera-Manager
+- [x] Modify hostname of Cloudera-Host-5
+- [x] Modify `/etc/hosts`
+- [x] Install xs-tools
+- [x] Configure static IP of Cloudera-Host-5
+
+- Problem: 主机问题 - `代理状态`
+  - Detail: `该主机与Cloudera Manager 断开联系的时间过长。不能确定主机的 Cloudera Manager 代理软件版本`
+  - Solution: Network problem. Shutdown the firewall of Cloudera-Manager by command `service iptables stop`.
+  - (Firewall was started when configure ntp server.)
+
+TODO:
+- [ ] Install CDH4 in Cloudera-Host-5
+  - Current Role
+    - RegionServer
+    - DataNode
+    - SecondaryNameNode
+    - TaskTracker
