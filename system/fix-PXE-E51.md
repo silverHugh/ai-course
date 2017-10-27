@@ -77,9 +77,22 @@ Finished:
   - (Firewall was started when configure ntp server.)
 
 TODO:
-- [ ] Install CDH4 in Cloudera-Host-5
+- [x] Install CDH4 in Cloudera-Host-5
   - Current Role
     - RegionServer
     - DataNode
     - SecondaryNameNode
     - TaskTracker
+    
+### 2017-10-27
+
+Install CDH4 in Cloudera-Host-5.
+
+Using local yum repo to install CDH, `自定义存储库`.
+Key commands:
+- `service iptables stop`
+- `service httpd start` in Cloudera Manager
+
+TODO:
+- [ ] Give roles to Cloudera-Host-5
+- [ ] fix error: `HDFS service not configured for High Availability must have a SecondaryNameNode`
