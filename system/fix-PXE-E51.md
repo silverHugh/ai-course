@@ -96,3 +96,11 @@ Key commands:
 TODO:
 - [ ] Give roles to Cloudera-Host-5
 - [ ] fix error: `HDFS service not configured for High Availability must have a SecondaryNameNode`
+
+### 2017-10-30
+
+Problem: `Host Monitor 未运行`
+
+Solution: Seems fixed by restart `Cloudera Management Service` and stop iptables in service provider host.
+
+- [X] Apply access from outer network.
