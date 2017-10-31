@@ -2,7 +2,7 @@
 
 ## Error Description
 
-PXE-E51: No DHCP or proxyDHCP offers were received.
+**PXE-E51: No DHCP or proxyDHCP offers were received.**
 
 Screenshots:
 
@@ -39,19 +39,23 @@ Down server:<br>
 
 ### 2017-09-29
 
-Problem: One hadrware broken.<br>
-Replace the broken one with a new 500G hardware.
+**Problem: One hadrware broken.**
 
-Problem: No system
-Install XenServer 6.1 and configure static network.<br>
-In local command line, configure DNS server.<br>
-Manage this server with XenCenter.
+Solution:
+- Replace the broken one with a new 500G hardware.
+
+**Problem: No system.**
+
+Solution:
+- Install XenServer 6.1 and configure static network.<br>
+- In local command line, configure DNS server.<br>
+- Manage this server with XenCenter.
 
 - [x] Install a new virtual machine. 
 
 ### 2017-10-10
 
-Problem: can't remove vm-disk after removing vm
+**Problem: can't remove vm-disk after removing vm**
 
 Attemption: 
 - xe vdi-destory
@@ -89,6 +93,7 @@ TODO:
 Install CDH4 in Cloudera-Host-5.
 
 Using local yum repo to install CDH, `自定义存储库`.
+
 Key commands:
 - `service iptables stop`
 - `service httpd start` in Cloudera Manager
@@ -99,7 +104,7 @@ TODO:
 
 ### 2017-10-30
 
-Problem: `Host Monitor 未运行`
+**Problem: `Host Monitor 未运行`**
 
 Solution: Seems fixed by restart `Cloudera Management Service` and stop iptables in service provider host.
 
@@ -113,5 +118,4 @@ Key commands:
 - `service iptables stop`
 - `chkconfig iptables off`
 
-Problem:
-- oozie can't start. `Cannot load JDBC driver class 'com.mysql.jdbc.Driver'`
+**Problem: oozie can't start. `Cannot load JDBC driver class 'com.mysql.jdbc.Driver'`**
