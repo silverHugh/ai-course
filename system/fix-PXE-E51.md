@@ -94,8 +94,8 @@ Key commands:
 - `service httpd start` in Cloudera Manager
 
 TODO:
-- [ ] Give roles to Cloudera-Host-5
-- [ ] fix error: `HDFS service not configured for High Availability must have a SecondaryNameNode`
+- [x] Give roles to Cloudera-Host-5
+- [x] fix error: `HDFS service not configured for High Availability must have a SecondaryNameNode`
 
 ### 2017-10-30
 
@@ -104,3 +104,14 @@ Problem: `Host Monitor 未运行`
 Solution: Seems fixed by restart `Cloudera Management Service` and stop iptables in service provider host.
 
 - [X] Apply access from outer network.
+
+### 2017-10-31
+
+Give roles to Cloudera-Host-5 and restart all service in Cloudera Manager.
+
+Key commands:
+- `service iptables stop`
+- `chkconfig iptables off`
+
+Problem:
+- oozie can't start. `Cannot load JDBC driver class 'com.mysql.jdbc.Driver'`
