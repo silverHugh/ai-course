@@ -119,3 +119,15 @@ Key commands:
 - `chkconfig iptables off`
 
 **Problem: oozie can't start. `Cannot load JDBC driver class 'com.mysql.jdbc.Driver'`**
+
+### 2017-11-1
+
+**Problem: oozie can't start. `Cannot load JDBC driver class 'com.mysql.jdbc.Driver'`**
+
+In stderr.log, `WARNING: Problem with JAR file [/usr/lib/hadoop/client-0.20/oro-2.0.8.jar], exists: [false], canRead: [false]`.<br>
+Download and place it to right place.<br>
+Still not work.
+
+Attemption:
+- Delete \*.lck files. Ref:[Oozie startup failure: ERROR XSDB6](https://community.cloudera.com/t5/Cloudera-Manager-Installation/Oozie-startup-failure-ERROR-XSDB6/td-p/11584) Not work.
+- 重新授权 hdfs1 cost very long time.
