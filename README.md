@@ -54,6 +54,9 @@ Tensorflow默认会占用GPU的全部显存，如果不对显存进行一些设�
 使用Tensorflow：
 
 ``` python
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="0"  # Only use GPU:0
+
 import tensorflow as tf
 
 config = tf.ConfigProto()
@@ -70,6 +73,9 @@ with tf.Session(config=config) as sess:
 使用Keras：
 
 ``` python
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="0"  # Only use GPU:0
+
 import tensorflow as tf
 from keras import backend as K
 
