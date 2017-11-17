@@ -18,6 +18,7 @@
         - [3.舆情分析](#3舆情分析)
         - [4.跨媒体检索](#4跨媒体检索)
     - [四、实习报告格式](#四实习报告格式)
+    - [五、实验指导材料](#五实验指导材料)
 
 <!-- /TOC -->
 
@@ -194,3 +195,10 @@ GroupLens Research（http://www.grouplens.org/node/73）采集了一组从20世�
 1. 结束语
 1. 参考文献
 1. 实习建议
+
+## 五、实验指导材料
+
+- [Notebook used in tensorflow course](https://github.com/silverHugh/ai-course/blob/master/tensorflow_class.ipynb) [\[nbviewer\]](http://nbviewer.jupyter.org/github/silverHugh/ai-course/blob/master/tensorflow_class.ipynb)
+- [Tensorflow and Keras 安装.docx](https://github.com/silverHugh/ai-course/blob/master/Tensorflow%20and%20Keras%20%E5%AE%89%E8%A3%85.docx)
+- [tf_case.py](https://github.com/silverHugh/ai-course/blob/master/tf_case.py)
+- [keras_case.py](https://github.com/silverHugh/ai-course/blob/master/keras_case.py)
