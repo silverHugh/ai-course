@@ -60,13 +60,18 @@ passwd
 
 ### 1.设定GPU显存为自增长模式
 
-Tensorflow默认会占用GPU的全部显存，如果不对显存进行一些设定，当一个人完全占用了GPU之后，其他同学将无法正常使用GPU资源。
+Tensorflow默认会占用GPU的全部显存，如果不对显存进行一些设定，当一个人完全占用了GPU之后，其他同学将无法正常使用GPU资源。在Jupyter Notebook中你的代码之前先运行以下代码。
+
+可以通过 `New`->`Terminal` 打开一个新的终端，在终端中输入 `gpustat`查看当前GPU运行状况，然后通过设定环境变量`CUDA_VISIBLE_DEVICES`来决定使用哪一块GPU。
+
+- 动态查看GPU状态：`watch -n0.5 --color gpustat --color`
+- 查看服务器其他运行状况：`htop`
 
 使用Tensorflow：
 
 ``` python
 import os
-os.environ["CUDA_VISIBLE_DEVICES"]="0"  # Only use GPU:0
+os.environ["CUDA_VISIBLE_DEVICES"]="0"  # Only use GPU:0 or "1" for GPU:1
 
 import tensorflow as tf
 
