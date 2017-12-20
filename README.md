@@ -3,8 +3,9 @@
 <!-- TOC -->
 
 - [人工智能原理课程实习](#人工智能原理课程实习)
+    - [零、参考文档](#零参考文档)
     - [一、系统登录和密码修改](#一系统登录和密码修改)
-    - [二、有关GPU的注意事项（很重要）](#二有关gpu的注意事项很重要)
+    - [**二、有关GPU的注意事项（很重要）**](#二有关gpu的注意事项很重要)
         - [1.设定GPU显存为自增长模式](#1设定gpu显存为自增长模式)
         - [2.释放GPU内存](#2释放gpu内存)
     - [三、课程实习题目](#三课程实习题目)
@@ -21,6 +22,15 @@
     - [五、实验指导材料](#五实验指导材料)
 
 <!-- /TOC -->
+
+## 零、参考文档
+
+1. [Keras 2.0.8](https://faroit.github.io/keras-docs/2.0.8/)
+  - [Datasets](https://faroit.github.io/keras-docs/2.0.8/datasets/)
+  - [Examples](https://github.com/keras-team/keras/tree/master/examples)
+1. [CS228 Python Tutorial](http://nbviewer.jupyter.org/github/kuleshov/cs228-material/blob/master/tutorials/python/cs228-python-tutorial.ipynb)
+1. [Data science Python notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
+  - [Keras part](https://github.com/donnemartin/data-science-ipython-notebooks/tree/master/deep-learning/keras-tutorial)
 
 ## 一、系统登录和密码修改
 
@@ -46,7 +56,7 @@ passwd
 ![](./pic/logout.png)
 
 
-## 二、有关GPU的注意事项（很重要）
+## **二、有关GPU的注意事项（很重要）**
 
 ### 1.设定GPU显存为自增长模式
 
