@@ -26,11 +26,11 @@
 ## 零、参考文档
 
 1. [Keras 2.0.8](https://faroit.github.io/keras-docs/2.0.8/)
-  - [Datasets](https://faroit.github.io/keras-docs/2.0.8/datasets/)
-  - [Examples](https://github.com/keras-team/keras/tree/master/examples)
+    - [Datasets](https://faroit.github.io/keras-docs/2.0.8/datasets/)
+    - [Examples](https://github.com/keras-team/keras/tree/master/examples)
 1. [CS228 Python Tutorial](http://nbviewer.jupyter.org/github/kuleshov/cs228-material/blob/master/tutorials/python/cs228-python-tutorial.ipynb)
 1. [Data science Python notebooks](https://github.com/donnemartin/data-science-ipython-notebooks)
-  - [Keras part](https://github.com/donnemartin/data-science-ipython-notebooks/tree/master/deep-learning/keras-tutorial)
+    - [Keras part](https://github.com/donnemartin/data-science-ipython-notebooks/tree/master/deep-learning/keras-tutorial)
 
 ## 一、系统登录和密码修改
 
